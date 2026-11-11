@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /trackback/
 Disallow: /play/*
 
-Sitemap: https://gramsbetcasino-nl.nl/sitemap.xml
+Sitemap: https://spinita-nl.nl/sitemap.xml
