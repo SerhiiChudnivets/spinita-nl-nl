@@ -121,7 +121,7 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Spinita casino beschikbaar voor spelers uit Nederland?",
+        "name": "Is Spinita Casino beschikbaar voor spelers uit Nederland?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Ja, Nederlandse spelers kunnen een account openen en in euro’s spelen. Spinita werkt onder een licentie van Anjouan, niet van de Nederlandse Kansspelautoriteit."
@@ -129,7 +129,7 @@
       },
       {
         "@type": "Question",
-        "name": "Hoe groot is de Spinita bonus?",
+        "name": "Hoe groot is de Spinita Bonus?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Het welkomstpakket bedraagt 225% tot €4.000 plus 380 free spins, verdeeld over vijf stortingen. De 200 free spins van stap 4 en 5 hebben geen inzetvereiste."
@@ -137,7 +137,7 @@
       },
       {
         "@type": "Question",
-        "name": "Heb ik een Spinita bonus code nodig?",
+        "name": "Heb ik een Spinita Bonus code nodig?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Voor het welkomstpakket niet. Codes worden alleen gebruikt bij tijdelijke acties en verschijnen dan in je account."
@@ -368,15 +368,15 @@
   "FAQ": [
     {
       "answer": "Ja, Nederlandse spelers kunnen een account openen en in euro’s spelen. Spinita werkt onder een licentie van Anjouan, niet van de Nederlandse Kansspelautoriteit.",
-      "question": "Is Spinita casino beschikbaar voor spelers uit Nederland?"
+      "question": "Is Spinita Casino beschikbaar voor spelers uit Nederland?"
     },
     {
       "answer": "Het welkomstpakket bedraagt 225% tot €4.000 plus 380 free spins, verdeeld over vijf stortingen. De 200 free spins van stap 4 en 5 hebben geen inzetvereiste.",
-      "question": "Hoe groot is de Spinita bonus?"
+      "question": "Hoe groot is de Spinita Bonus?"
     },
     {
       "answer": "Voor het welkomstpakket niet. Codes worden alleen gebruikt bij tijdelijke acties en verschijnen dan in je account.",
-      "question": "Heb ik een Spinita bonus code nodig?"
+      "question": "Heb ik een Spinita Bonus code nodig?"
     },
     {
       "answer": "Ja. Bij stap 4 en 5 van het welkomstpakket krijg je samen 200 free spins zonder inzetvereiste, en de winst daaruit kun je direct opnemen.",
@@ -395,8 +395,8 @@
       "question": "Heeft Spinita een app?"
     }
   ],
-  "_generated_at": "2026-11-18T14:50:11.951Z",
+  "_generated_at": "2026-11-18T15:38:37.142Z",
   "_version": "1.0.0",
-  "_last_deploy": "2026-11-18T14:50:12.658Z",
-  "_deploy_trigger": "e6w6lb"
+  "_last_deploy": "2026-11-18T15:38:37.989Z",
+  "_deploy_trigger": "14vrn6"
 }
