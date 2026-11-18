@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Head from 'next/head'
+import { renderSeoMarkup } from '../templates/seoMarkup'
 import {array} from "prop-types";
 
 interface MediaFile {
@@ -1479,6 +1480,15 @@ export default function TupchiyTemplate() {
 
         {/* Вставка всіх тегів з html_head */}
         {htmlHeadContent && renderHeadTags(htmlHeadContent)}
+        {renderSeoMarkup({
+          data,
+          isHomepage: true,
+          title: pageSeoTitle || data.site_name || data.name,
+          description: metaDescription,
+          lang: data.language_code,
+          image: data.main_background_img || data.heroImage || data.hero_image,
+          htmlHead: htmlHeadContent,
+        })}
       </Head>
 
 

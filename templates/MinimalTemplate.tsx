@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Head from 'next/head'
+import { renderSeoMarkup } from './seoMarkup'
 
 interface MediaFile {
   id?: number
@@ -669,6 +670,19 @@ export default function MinimalTemplate({ page, site }: { page: PageData; site: 
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         {htmlHeadContent && renderHeadTags(htmlHeadContent)}
+        {renderSeoMarkup({
+          data,
+          isHomepage: Boolean(page.isHomepage),
+          slug: page.slug,
+          title: pageSeoTitle || page.title || site.site_name || site.name,
+          description: metaDescription,
+          pageName: page.title,
+          lang: page.lang || data.language_code,
+          image: page.heroImage || page.hero_image || data.main_background_img,
+          createdAt: page.createdAt,
+          updatedAt: page.updatedAt,
+          htmlHead: htmlHeadContent,
+        })}
       </Head>
       <style dangerouslySetInnerHTML={{ __html: dynamicStyles }} />
       <style dangerouslySetInnerHTML={{ __html: styles }} />
